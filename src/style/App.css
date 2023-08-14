@@ -1,0 +1,15 @@
+/* COMMON - START */
+:root {
+  --primary-black: #2a3342;
+  --primary-gray: #556987;
+  --primary-green: #22c55e;
+}
+
+.sectmain-containerion {
+  border-right-color: #22c55e;
+  border: 1px solid #000;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1440px;
+}
+/* COMMON - END */
