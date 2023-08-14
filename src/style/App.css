@@ -5,7 +5,7 @@
   --primary-green: #22c55e;
 }
 
-.sectmain-containerion {
+.main-container {
   border-right-color: #22c55e;
   border: 1px solid #000;
   margin-right: auto;
@@ -13,3 +13,44 @@
   max-width: 1440px;
 }
 /* COMMON - END */
+
+/* NAV - START */
+.nav-container {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 24px 88px 44px 88px;
+}
+
+.nav-text-container {
+  display: flex;
+  align-items: center;
+  color: var(--primary-black);
+  gap: 48px;
+}
+
+.nav-login-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-text {
+  color: var(--primary-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nav-btn {
+  color: white;
+  background-color: var(--primary-green);
+  border-radius: 6px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 8px 16px;
+}
+/* NAV - END */
