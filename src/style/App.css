@@ -3,6 +3,7 @@
   --primary-black: #2a3342;
   --primary-gray: #556987;
   --primary-green: #22c55e;
+  --secondary-blue-light: #dcfce7;
 }
 
 .main-container {
@@ -11,6 +12,18 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1440px;
+}
+
+.pill {
+  display: inline-block;
+  border-radius: 36px;
+  padding: 2px 8px;
+  color: var(--primary-green);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: var(--secondary-blue-light);
 }
 /* COMMON - END */
 
@@ -54,3 +67,46 @@
   padding: 8px 16px;
 }
 /* NAV - END */
+
+/* GAIN MORE - START */
+.gain-container {
+  text-align: center;
+}
+
+.gain-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gain-single-card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gain-icons {
+  background-color: var(--primary-green);
+  color: white;
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.gain-title {
+  color: var(--primary-black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.gain-description {
+  color: var(--primary-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+/* GAIN MORE - END */
