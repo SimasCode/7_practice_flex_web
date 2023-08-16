@@ -1,3 +1,3 @@
 export default function Section(props) {
-  return <section>{props.children}</section>;
+  return <section className='section'>{props.children}</section>;
 }

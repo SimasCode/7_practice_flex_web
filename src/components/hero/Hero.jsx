@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Section from '../UI/section/Section';
+import Pill from '../UI/pill/Pill';
 
 export default function Hero() {
   const [emailValue, setEmailValue] = useState('');
@@ -23,6 +24,7 @@ export default function Hero() {
   }
   return (
     <Section>
+      <Pill pillItem={'Header'} />
       <div className='hero-container'>
         <img
           className='hero-image'
