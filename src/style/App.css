@@ -168,6 +168,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin-left: 150px;
   margin-right: 150px;
+  margin-bottom: 150px;
 }
 
 .gain-single-card-container {
@@ -181,8 +182,6 @@
   margin-left: auto;
   background-color: var(--primary-green);
   color: white;
-  /* width: 24px; */
-  /* height: 24px; */
   padding: 12px 20px;
   border-radius: 6px;
   font-weight: bold;

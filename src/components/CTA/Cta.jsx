@@ -1,9 +1,10 @@
-import Section from '../section/Section';
+import Btn from '../UI/btn/Btn';
+import Section from '../UI/section/Section';
 import css from './cta.module.css';
 
 export default function Cta() {
   return (
-    <Section>
+    <Section className={css.section}>
       <div className={`container ${css.cta}`}>
         <div className='left'>
           <h2 className={css.title}>
@@ -14,8 +15,8 @@ export default function Cta() {
           </p>
         </div>
         <div className={css.right}>
-          {/* <Btn className={css.mr24}>Get started</Btn>
-          <Btn secondary>Learn more</Btn> */}
+          <Btn className={css.mr24}>Get started</Btn>
+          <Btn secondary>Learn more</Btn>
         </div>
       </div>
     </Section>
