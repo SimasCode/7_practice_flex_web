@@ -1,0 +1,23 @@
+.title {
+  color: #22c55e;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.text {
+  color: #556987;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-align: center;
+}

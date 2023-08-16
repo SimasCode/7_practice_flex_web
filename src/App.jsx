@@ -6,6 +6,7 @@ import NavBar from './components/navbar/NavBar';
 import './style/reset.css';
 import './style/App.css';
 import GainMore2 from './components/gainMore2/GainMore2';
+import Believe from './components/believe/Believe';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <GainMore />
       <Cta />
       <GainMore2 />
+      <Believe />
     </div>
   );
 }
