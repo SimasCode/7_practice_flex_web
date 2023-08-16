@@ -1,3 +1,4 @@
+import Cta from './components/UI/CTA/Cta';
 import Companies from './components/companies/Companies';
 import GainMore from './components/gainMore/GainMore';
 import Hero from './components/hero/Hero';
@@ -12,6 +13,7 @@ export default function App() {
       <Hero />
       <Companies />
       <GainMore />
+      <Cta />
     </div>
   );
 }
