@@ -1,7 +1,6 @@
 import Container from '../UI/container/Container';
 import Section from '../UI/section/Section';
 import SectionTitle from '../UI/sectionTitle/SectionTitle';
-import GainCardsList from './GainMoreList';
 
 const sectionData = {
   sectionTitle: {
@@ -65,7 +64,6 @@ function GainMore() {
           title={sectionData.sectionTitle.title}
           subtitle={sectionData.sectionTitle.subtitle}
         />
-        <GainCardsList item={sectionData.gainCards} />
       </Container>
     </Section>
   );
