@@ -1,4 +1,4 @@
-export default function SingleCard(props) {
+export default function GainMoreItem(props) {
   return (
     <div className='gain-single-card-container'>
       <i className={`gain-icons ${props.icon}`}></i>

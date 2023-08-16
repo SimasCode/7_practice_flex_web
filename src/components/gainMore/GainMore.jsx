@@ -1,7 +1,7 @@
 import Container from '../UI/container/Container';
 import Section from '../UI/section/Section';
 import SectionTitle from '../UI/sectionTitle/SectionTitle';
-import GainCardsList from '../UI/gainCardsList/GainCardsList';
+import GainCardsList from './GainMoreList';
 
 const sectionData = {
   sectionTitle: {
