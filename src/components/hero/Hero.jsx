@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Section from '../UI/section/Section';
 import Pill from '../UI/pill/Pill';
+import Btn from '../UI/btn/Btn';
 
 export default function Hero() {
   const [emailValue, setEmailValue] = useState('');
@@ -52,9 +53,7 @@ export default function Hero() {
                   type='text'
                   placeholder='Enter your work email'
                 />
-                <button type='submit' className='hero-btn'>
-                  Get early access
-                </button>
+                <button type='submit' className='hero-btn'></button>
               </form>
               <p className='hero-trial'>
                 Start your free 14-day trial today, no credit card required.
