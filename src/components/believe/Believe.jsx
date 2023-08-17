@@ -7,7 +7,11 @@ export default function Believe() {
   return (
     <Section>
       <Container>
-        <SectionTitle />
+        <SectionTitle
+          pill='number'
+          title='We believe in the power of data'
+          subtitle=' Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.'
+        />
         <div className={css.flex}>
           <div>
             <h2 className={css.title}>235.000</h2>

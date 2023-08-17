@@ -1,0 +1,19 @@
+.ta {
+  text-align: center;
+}
+
+.title {
+  color: #2a3342;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.subtitle {
+  color: #556987;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}

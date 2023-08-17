@@ -4,6 +4,12 @@
 
 html {
   font-family: 'Poppins', sans-serif;
+  --primary-black: #2a3342;
+  --primary-gray: #556987;
+  --primary-green: #22c55e;
+  --secondary-blue-light: #dcfce7;
+  --secondary-gray: #bbc3cf;
+  --secondary-dark-gray: #8896ab;
 }
 
 body {

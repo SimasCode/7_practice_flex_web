@@ -24,7 +24,7 @@ export default function Hero() {
   }
   return (
     <Section>
-      <Pill pillItem={'Header'} />
+      <Pill secondary pillItem={'Header'} />
       <div className='hero-container'>
         <img
           className='hero-image'

@@ -1,3 +1,8 @@
+import css from './pill.module.css';
+
 export default function Pill(props) {
-  return <p className='pill'>{props.pillItem}</p>;
+  const genClasses = props.secondary
+    ? `${css.pill} ${css.pill2} `
+    : `${css.pill}`;
+  return <p className={genClasses}>{props.pillItem}</p>;
 }

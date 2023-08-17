@@ -16,17 +16,6 @@
   max-width: 1440px;
 }
 
-.pill {
-  display: inline-block;
-  border-radius: 36px;
-  padding: 2px 8px;
-  color: var(--primary-green);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  background-color: var(--secondary-blue-light);
-}
 /* COMMON - END */
 
 /* NAV - START */
@@ -159,9 +148,6 @@
 /* COMPANIES - END */
 
 /* GAIN MORE - START */
-.gain-container {
-  text-align: center;
-}
 
 .gain-cards-container {
   display: grid;

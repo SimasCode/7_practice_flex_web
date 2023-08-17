@@ -1,13 +1,14 @@
 import Pill from '../pill/Pill';
+import css from './sectionTitle.module.css';
 
 export default function SectionTitle(props) {
   const { pill, title, subtitle } = props;
   return (
-    <div className={`gain-container ${props.className}`}>
+    <div className={`${css.ta} ${props.className}`}>
       {/* <p className='pill'>{pill}</p> */}
       <Pill pillItem={pill} />
-      <h2>{title}</h2>
-      <p>{subtitle}</p>
+      <h2 className={css.title}>{title}</h2>
+      <p className={css.subtitle}>{subtitle}</p>
     </div>
   );
 }

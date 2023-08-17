@@ -1,0 +1,18 @@
+@import '/src/style/reset.css';
+
+.pill {
+  display: inline-block;
+  border-radius: 36px;
+  padding: 2px 8px;
+  color: var(--primary-green);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: var(--secondary-blue-light);
+}
+
+.pill2 {
+  color: white;
+  background-color: var(--primary-green);
+}
